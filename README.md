@@ -1,4 +1,4 @@
-# Xero NestJS Helper
+# Xero NestJS REDIS Helper
 
 [![npm version](https://badge.fury.io/js/xero-nestjs-helper.svg)](https://badge.fury.io/js/xero-nestjs-helper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
