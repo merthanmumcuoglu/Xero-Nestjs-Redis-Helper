@@ -1,0 +1,60 @@
+{
+  "name": "xero-nestjs-helper",
+  "version": "1.0.0",
+  "description": "A comprehensive NestJS helper class for Xero API integration with OAuth2 authentication, token management, and Redis storage",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
+  },
+  "keywords": [
+    "xero",
+    "nestjs",
+    "oauth2",
+    "api",
+    "accounting",
+    "integration",
+    "redis",
+    "typescript",
+    "helper"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/xero-nestjs-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/xero-nestjs-helper/issues"
+  },
+  "homepage": "https://github.com/yourusername/xero-nestjs-helper#readme",
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0 || ^9.0.0 || ^10.0.0",
+    "xero-node": "^4.0.0",
+    "@liaoliaots/nestjs-redis": "^8.0.0 || ^9.0.0",
+    "ioredis": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
